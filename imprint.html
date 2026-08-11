@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Impressum – Black Holes</title>
+<meta name="theme-color" content="#05050a">
+<style>
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    background: #05050a;
+    color: rgba(255,255,255,0.85);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+  }
+  .wrap { max-width: 640px; margin: 0 auto; padding: 40px 24px 60px; }
+  .back { display: inline-block; color: rgba(255,255,255,0.45); text-decoration: none; font-size: 13px; margin-bottom: 20px; }
+  h1 { font-size: 20px; font-weight: 500; color: #fff; margin: 0 0 4px; }
+  .updated { font-size: 12px; color: rgba(255,255,255,0.35); margin: 0 0 4px; }
+  .langs { margin: 4px 0 24px; font-size: 12px; }
+  .langs a { color: rgba(255,255,255,0.4); text-decoration: none; margin-right: 12px; }
+  .langs a.active { color: #fff; border-bottom: 1px solid #fff; padding-bottom: 2px; }
+  h2 { font-size: 15px; font-weight: 500; color: #fff; margin: 26px 0 8px; }
+  p { font-size: 14px; color: rgba(255,255,255,0.75); }
+  a { color: rgba(255,255,255,0.85); }
+  footer { margin-top: 40px; font-size: 11px; color: rgba(255,255,255,0.3); }
+  #en { display: none; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<div id="de">
+<a class="back" href="index.html">‹ Zurück</a>
+<h1>Impressum</h1>
+<p class="updated">Angaben gemäß § 5 DDG</p>
+<div class="langs"><a href="#" class="active">Deutsch</a><a href="#en">English</a></div>
+
+<h2>Anbieter</h2>
+<p>
+Christopher Gräb<br>
+Esswurmstraße 3b<br>
+81371 München<br>
+Deutschland
+</p>
+
+<h2>Kontakt</h2>
+<p>
+E-Mail: <a href="mailto:queenzy.app@gmail.com">queenzy.app@gmail.com</a><br>
+Kontaktformular: <a href="https://forms.gle/rXnAfXsAr36bUbbeA" target="_blank" rel="noopener">Zum Kontaktformular</a>
+</p>
+
+<h2>Verantwortlich für den Inhalt</h2>
+<p>
+Christopher Gräb<br>
+Esswurmstraße 3b, 81371 München<br>
+Deutschland
+</p>
+
+<h2>Verbraucherstreitbeilegung</h2>
+<p>Wir sind nicht verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>
+
+<h2>Haftungsausschluss</h2>
+<p>Diese App bzw. Website kann Links zu externen Websites Dritter enthalten, auf deren Inhalte wir keinen Einfluss haben. Für diese fremden Inhalte übernehmen wir keine Gewähr. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber verantwortlich. Bei Bekanntwerden rechtswidriger Inhalte werden entsprechende Links unverzüglich entfernt.</p>
+
+<footer>© 2026 Black Holes. Alle Rechte vorbehalten.</footer>
+</div>
+
+<div id="en">
+<a class="back" href="index.html#en">‹ Back</a>
+<h1>Imprint</h1>
+<p class="updated">Provider information pursuant to § 5 DDG (German law)</p>
+<div class="langs"><a href="#">Deutsch</a><a href="#en" class="active">English</a></div>
+
+<h2>Provider</h2>
+<p>
+Christopher Gräb<br>
+Esswurmstraße 3b<br>
+81371 Munich<br>
+Germany
+</p>
+
+<h2>Contact</h2>
+<p>
+Email: <a href="mailto:queenzy.app@gmail.com">queenzy.app@gmail.com</a><br>
+Contact form: <a href="https://forms.gle/rXnAfXsAr36bUbbeA" target="_blank" rel="noopener">Open contact form</a>
+</p>
+
+<h2>Responsible for content</h2>
+<p>
+Christopher Gräb<br>
+Esswurmstraße 3b, 81371 Munich<br>
+Germany
+</p>
+
+<h2>Consumer dispute resolution</h2>
+<p>We are not obligated to participate in dispute resolution proceedings before a consumer arbitration board.</p>
+
+<h2>Disclaimer</h2>
+<p>This app or website may contain links to external third-party websites over whose content we have no control. We assume no liability for this third-party content. The respective provider or operator of the linked pages is always responsible for their content. If we become aware of any legal violations, we will remove such links immediately.</p>
+
+<footer>© 2026 Black Holes. All rights reserved.</footer>
+</div>
+
+</div>
+
+<script>
+  function showLang() {
+    var en = window.location.hash === '#en';
+    document.getElementById('de').style.display = en ? 'none' : 'block';
+    document.getElementById('en').style.display = en ? 'block' : 'none';
+  }
+  showLang();
+  window.addEventListener('hashchange', showLang);
+</script>
+
+</body>
+</html>
